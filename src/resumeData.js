@@ -19,7 +19,7 @@ let resumeData = {
     }
   ],
   aboutme:
-    "My name is Aaron Perry, and I have recently graduated from Ulster University in July 2019. I am actively in search of a graduate opportunity within Software/Web Development. I am passionate and ambitious, and I love making applications look good! In particular, using front-end technologies such as jQuery and React make this possible. In my spare time, I have also started learning back-end tech such as Node.js. Outside of web design, I like to practice my software dvelopment skills, such as Java and C++.",
+    "My name is Aaron Perry, and I have recently graduated from Ulster University in July 2019. I am actively in search of a graduate opportunity within Software/Web Development. I am passionate and ambitious, and I love making applications look good! In particular, using front-end technologies such as jQuery and React make this possible. In my spare time, I am also learning back end tech, in order to become a Full Stack Developer. Outside of web design, I like to practice other software development languages, such as Java and C++.",
   address: "Newtownabbey, Northern Ireland",
   website: "https://aaronperry94.github.io",
   education: [
@@ -28,29 +28,33 @@ let resumeData = {
       specialization: "BSc Hons Computing Systems",
       MonthOfPassing: "July",
       YearOfPassing: "2019",
-      Achievements: "Computing Systems"
+      Achievements:
+        "During my time at Ulster University, I have become profoundly efficient with development languages such as JavaScript, C++, C#, HTML, Java and SQL. During my time at University I have practiced these languages by creating things like websites and databases for various assignments and even learning the code for written exams. Throughout my final year at University I have become extremely efficient using PHP, as this is the language I used to complete my Final Year Project. I have also more recently become a lot more familiar with HTML and JavaScript whilst studying Dynamic Web Authoring as we are required to build a website and use frameworks such as Bootstrap 4."
     },
     {
       UniversityName: "Northern Regional College",
-      specialization: "Higher National Certificate",
+      specialization: "HNC - Computing Systems w/ Games Development",
       MonthOfPassing: "August",
       YearOfPassing: "2014",
-      Achievements: "Computing Systems w/ Games Development"
+      Achievements:
+        "Whilst I attended NRC, I covered the basic fundamentals of computer programming. This course ranged from modules such as database design, to video game design. One of the main pieces of software I used at NRC was Microsoft Visual Studio. Upon completion of this course, it then allowed me to progress to Ulster University and obtain my degree."
     }
   ],
   work: [
     {
       CompanyName: "Dixons Carphone (Currys PC World)",
-      specialization: "Sales Team Leader",
+      specialization: "Team Leader",
       MonthOfLeaving: "April 2016 - Present",
-      Achievements: "Some Achievements"
+      Achievements:
+        "Working at Dixons Carphone has been a great experience for myself as I work within a fantastic team of colleagues and this made the task of achieving our Key Performance Indicators as a team much easier as we share a good culture. I found that in this role the aspect of working with customers and the latest technology is where I thrive and I could work to the best of my potential and enjoy it at the same time as I feel comfortable in such a high paced environment."
     },
     {
       CompanyName: "McDonalds",
       specialization: "Staff Trainer",
       MonthOfLeaving: "December",
       YearOfLeaving: "2015",
-      Achievements: "Some Achievements"
+      Achievements:
+        "I would say that during my time working there, the most valuable thing I had learnt would be developing my teamwork skills when working as a team, as this was a key part of the job. Another important skill I have developed would also be my communication skills and this has helped me at University as I could effectively communicate with my group during our oral presentations preparation. Finally, during my time as a Staff Trainer working at McDonalds, I have now developed myself into a hard-working person who can achieve excellent results under pressure, in a high speed working environment."
     }
   ],
   skillsDescription:
@@ -86,9 +90,10 @@ let resumeData = {
   ],
   portfolio: [
     {
-      name: "project1",
-      description: "mobileapp",
-      imgurl: "images/portfolio/phone.jpg"
+      name: "Car Showroom Website",
+      description:
+        "Stock management site which allows transactions. HTML5, PHP, SQL & Bootstrap 4",
+      imgurl: "images/portfolio/1.png"
     },
     {
       name: "project2",
